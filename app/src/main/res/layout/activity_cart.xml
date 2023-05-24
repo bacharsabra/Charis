@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/orderlistTextview"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="My Cart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/orderDetailstextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_horizontal"
+            android:hint="Cart is empty."
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/showprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:hint="Cost"
+            android:padding="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/add_to_cart_bg"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="Checkout"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#DCDCDC"
+            android:textStyle="italic"
+            android:text="10% extra on your initial order for donation" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

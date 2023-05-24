@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Charis">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.charis.CartActivity"></activity>
+        <activity android:name="com.example.charis.Crackers" />
+        <activity android:name="com.example.charis.Pizzanini" />
+        <activity android:name="com.example.charis.Simit" />
+        <activity android:name="com.example.charis.Hanis" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.charis.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name="com.example.charis.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.charis.LoginActivity" />
+        <activity android:name="com.example.charis.RegisterActivity" />
+        <activity android:name="com.example.charis.MainActivity"/>
+        <activity android:name="com.example.charis.LFB" />
+        <activity android:name="com.example.charis.FoodBlessed" />
+        <activity android:name="com.example.charis.WFP" />
+        <activity android:name="com.example.charis.LLB" />
+        <activity android:name="com.example.charis.Caritas" />
+        <activity android:name="com.example.charis.AboutActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

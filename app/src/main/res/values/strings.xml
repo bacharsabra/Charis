@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Charis</string>
+    <string name="register">Register</string>
+    <string name="alrdreg">Already Have an Account?</string>
+    <string name="gologin">Login</string>
+    <string name="login">Login</string>
+    <string name="noreg">Don\'t have an account?</string>
+    <string name="goreg">Sign Up</string>
+    <string name="google">Google</string>
+    <string name="logout">Logout</string>
+    <string name="my_location">My Location</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about1">Charis started in 2020 with the aim to put an end to local and eventually worldwide hunger with simple charitable donations that can be thought of as tips inside a restaurant.</string>
+    <string name="about2">Aiming to become one of the leading companies in our domain, we value our clients’ opinions, recommendations and suggestions about the services that we provide. For that, we are always open to accepting new ideas and ventures that our customers want us to offer next. We take it a point to always listen to our clients for to us satisfy their whims and needs is the first and foremost thing that we should do.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="lfb">Our mission is to fight and overcome hunger by developing effective Feeding Programs in parallel with Development &amp; Awareness programs to eliminate hunger. The Lebanese Food Bank is a non-profit, non-confessional and non-partisan organization established by a group of Lebanese business men in 2012 and a member of the Regional Food Banking Network in Dubai. It is presently headed by Mr. Kamal Sinno and is backed by a number of board members.</string>
+    <string name="fb">Co-founded in 2012, FoodBlessed is a local hunger-relief initiative that works with businesses and the civil society to reduce the number of people going hungry in Lebanon. The community-based, volunteer-driven food rescue program provides an effective and efficient solution to hunger, while addressing the serious and growing problem of food waste in Lebanon.</string>
+    <string name="caritas">Caritas was founded in 1897 in Freiburg, Germany. In 1972, the Jesuit Brother Elie Maamari founded Caritas South Lebanon in cooperation with this region bishops. It became Caritas Lebanon on September 9th, 1976. In 1981, the Assembly of Catholic Patriarchs and Bishops of Lebanon approved Caritas Lebanon’s status and designated it as the official socio-pastoral arm of the Church to assist both individuals and communities and to support charitable and social activities. Caritas Lebanon is a member of Caritas Internationalis, one of the largest humanitarian networks in the world, counting 165 Catholic organizations working in 200 different countries.</string>
+    <string name="llb">Live Love Beirut has pooled funds to help support NGOs on the ground in Beirut. Its crisis relief fund supports charities that are working to treat people affected by the disaster, find people who are still missing, and rebuild the city and people’s lives.</string>
+    <string name="wfp">The World Food Programme is the leading humanitarian organization saving lives and changing lives, delivering food assistance in emergencies and working with communities to improve nutrition and build resilience. As the international community has committed to end hunger, achieve food security and improved nutrition by 2030, one in nine people worldwide still do not have enough to eat. Food and food-related assistance lie at the heart of the struggle to break the cycle of hunger and poverty. For its efforts to combat hunger, for its contribution to bettering conditions for peace in conflict-affected areas and for acting as a driving force in efforts to prevent the use of hunger as a weapon of war and conflict, WFP was awarded the Nobel Peace Prize in 2020.</string>
+</resources>
